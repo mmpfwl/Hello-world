@@ -220,6 +220,7 @@ void user_init( void )
     gpio16_output_conf();
     uart_init(115200,115200);
 //    gpio16_output_conf();
+    os_printf("Wifi test eeee success!");
     Led_Cmd( false );
     drv_Input_Init();
 //
